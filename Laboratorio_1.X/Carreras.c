@@ -35,7 +35,7 @@ char bandera = 0; //Declaracion de variables
 char player1 = 0, player2 = 0;
 char anti1 = 0, anti2 = 0;
 unsigned char const SEGMENT_MAP[10] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F}; //Valores para el display en hexadecimal
-unsigned char const COUNTER_MAP[9] = {0x00, 0x01, 0x03, 0x07, 0x0F, 0x1F, 0x3F, 0x7F, 0xFF}; //Valores para el contador de decada
+unsigned char const COUNTER_MAP[9] = {0x00, 0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80}; //Valores para el contador de decada
 
 void main(void) {
     TRISA = 0; //Configuracion de puertos
